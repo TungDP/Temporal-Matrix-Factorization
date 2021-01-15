@@ -1,4 +1,4 @@
-# Demo for paper: "Temporal-Matrix-Factorization" submitted to ICASSP 2021
+# Demo for paper: "TEMPORAL MATRIX FACTORIZATION FOR TIME-SERIES CLUSTERING" submitted to ICASSP 2021
 
 ## run
 
