@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 from tslearn.datasets import UCR_UEA_datasets
 from tmf import tmf
-from scipy.io import loadmat
 
 """ load data """
 data_loader = UCR_UEA_datasets()
@@ -22,10 +21,6 @@ grd[np.arange(y.size),y] = 1
 """ run temporal matrix factorization """
 k = y.max()+1; l = X.shape[1]; lambda_1 = lambda_2 = 1e-2; lambda_3 = 10; sigma = 0.05 ** 2; eta = 1e-2; o_max = 15; i_max = 50;
 F_list, G_list = tmf(X, k, l, lambda_1, lambda_2, lambda_3, sigma, eta, o_max, i_max)
-
-#ddict = loadmat('results.mat')
-#F_list = ddict['F'] 
-#G_list = ddict['G']
 
 """ plot """
 plt.style.use(style='ggplot')
