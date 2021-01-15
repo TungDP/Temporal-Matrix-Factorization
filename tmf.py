@@ -64,7 +64,7 @@ def gen_D(l):
     return D
 
 def init(X,l,k):
-    # Good initial start improve to convergence 
+    # Good initial start improves the convergence speed 
     seed = 0
     sdtw_km = TimeSeriesKMeans(n_clusters=k, metric="euclidean", max_iter=10, random_state=seed)
     sdtw_km.fit(X)
