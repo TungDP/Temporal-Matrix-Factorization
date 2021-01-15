@@ -1,6 +1,6 @@
-# demo for "Temporal-Matrix-Factorization" submitted to ICASSP
+# Demo for paper: "Temporal-Matrix-Factorization" submitted to ICASSP 2021
 
-# run
+## run
 
 python demo.py
 
