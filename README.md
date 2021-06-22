@@ -2,6 +2,9 @@
 
 ## run
 
-python demo.py
+```bash
+$ python demo.py
+```
+
 
 
